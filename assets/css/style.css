@@ -20,6 +20,15 @@ section {
   background-color: white;
   padding: 60px 30px;
   border-radius: 20px;
+  margin: 40px 180px 40px 180px;
+}
+
+h1 {
+  font-size: 50px;
+  color: #393c6c;
+  text-align: center;
+  font-weight: bold;
+  margin: 15px 55px 7px 55px;
 }
 
 p {
@@ -28,15 +37,17 @@ p {
 }
 .régime {
   color: #6c6c6c;
-}
-
-h1 {
-  font-size: 50px;
-  color: #393c6c;
+  font-size: 12px;
   text-align: center;
-  font-weight: bold;
+  line-height: 22px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
-
+.image-recette {
+  width: 33%;
+  aspect-ratio: 1/1;
+  border-radius: 20px;
+}
 h2 {
   font-size: 30px;
   font-weight: bold;
@@ -55,11 +66,25 @@ h3 {
 span {
   background-color: #667799;
   color: white;
-  border-radius: 5px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 12px 120px 12px 120px;
+}
+
+.time {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 80px;
 }
 
 li {
   list-style: inside;
-  padding-left: 30px;
+  padding-left: 15px;
+  color: #6c6c6c;
+  line-height: 22px;
+}
+
+footer {
+  text-align: center;
   color: #6c6c6c;
 }
