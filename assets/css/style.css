@@ -3,5 +3,48 @@
 }
 body {
   background-color: #efefef;
+  font-family: "Roboto";
   font-size: 16px;
+}
+
+.container {
+  width: 1024px;
+  margin: auto;
+}
+
+header {
+  background-color: white;
+  border-bottom: solid 1px #f3735f;
+}
+section {
+  background-color: white;
+  padding: 60px 30px;
+  border-radius: 20px;
+}
+
+p {
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 50px;
+  color: #393c6c;
+  text-align: center;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #f3735f;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #393c6c;
+  line-height: 22px;
 }
